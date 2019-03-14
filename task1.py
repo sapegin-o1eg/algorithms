@@ -34,6 +34,6 @@ if __name__ == '__main__':
     print(f'Исходный массив:\n{array}')
 
     bubble_sort_enhanced(array)
-    assert array == array_test, 'Массив не совпадают с образцовым'
+    assert array == array_test, 'Массив не совпадает с образцовым'
 
     print(f'Отсортированный массив:\n{array}')

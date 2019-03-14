@@ -56,6 +56,6 @@ if __name__ == '__main__':
 
     result = merge_sort(array)
     result = list(result)
-    assert result == array_test, 'Массив не совпадают с образцовым'
+    assert result == array_test, 'Массив не совпадает с образцовым'
 
     print(f'Отсортированный массив:\n{result}')
